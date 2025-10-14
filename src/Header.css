@@ -1,0 +1,55 @@
+.header {
+
+  
+  background-image:url(./images/bg.jpeg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+
+  display: grid;
+  grid-template-areas:
+  "title";
+
+  background-color: var(--color-header-bg);
+  padding: 1rem;
+  margin: 0;
+}
+ .header__title {
+  grid-area: title;
+  justify-self: center;
+  color: white;
+
+  line-height: inherit;
+  
+  padding: 3rem;
+
+ }
+
+
+
+.skip {
+  background: #9ec1a3;
+  top: 0.5rem;
+  left: 40%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-10000%);
+  transition: transform 0.3s;
+}
+
+.skip:focus {
+  transform: translateY(0%);
+}
+
+
+
+
+.login{
+  color:white;
+  position: absolute;
+  top:-24px;
+  right: 16px;
+}
+

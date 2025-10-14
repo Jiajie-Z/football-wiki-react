@@ -1,0 +1,105 @@
+.register__error {
+    grid-column: span 2;
+    color: red;
+    font-size: 0.8rem;
+}
+
+.register__email__active,
+.register__username__active {
+    border-color: red;
+    border-style: solid;
+    /* outline: none; */
+
+}
+
+.register {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.modal::backdrop {
+    background-color: rgb(0 0 0 / 0.7);
+}
+
+.modal__title {
+    grid-column: span 2;
+    place-self: center stretch;
+    font-weight: bold;
+}
+
+.register__label {
+    grid-column: span 2;
+    font-size: 1rem;
+    ;
+}
+
+.required {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.register__username{
+    grid-column: span 2;
+}
+.register__email {
+    grid-column: span 2;
+}
+
+.register__email--valid {
+    grid-column: span 2;
+}
+
+.register__register {
+    font-size: 1.2rem;
+    border-radius: 12px;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    background-color: lime;
+
+    margin-right: 8px;
+
+    transition-duration: 0.1s;
+}
+
+.register__register:hover {
+    background-color: limegreen;
+}
+
+.register__close {
+    font-size: 1.2rem;
+    border-radius: 12px;
+    background-color: red;
+    margin-left: 8px;
+
+    transition-duration: 0.1s;
+}
+
+.register__close:hover {
+    background-color: lightcoral;
+}
+
+.openModal {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+    padding: 0;
+    margin: 0;
+    font: inherit;
+
+
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+    color: white;
+}
+
+.openModal:hover{
+    color:dodgerblue;
+}
+
+.open:hover {
+    color: dodgerblue;
+}

@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+:root {
+  --color-page-bg: white;
+  --color-header-bg: #b8b8d1;
+  --color-page-text: black;
+  --color-header-text: black;
+  --color-menu-link:white;
+  --color-menu-bg:#5b5f97;
+
+
+}
+
+html,
+body {
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+
+  font-family: sans-serif;
+  line-height: 1.6;
+  height: 100%;
+
+  margin: 0;
+}
+
+
+
+.footer {
+  margin-top: auto;
+}

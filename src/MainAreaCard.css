@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+
+.image {
+    height: auto;
+    width: 800px;
+    margin: auto;
+}
+
+.button__prev {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    
+    color: var(--color-menu-link);
+    background-color: var(--color-menu-bg);
+    height: 2rem;
+    width: 2rem;
+    
+
+
+}
+
+.button__next {
+    position: absolute;
+    top: 45%;
+    left: 95%;
+
+    color: var(--color-menu-link);
+    background-color: var(--color-menu-bg);
+    height: 2rem;
+    width: 2rem;
+
+}
+
